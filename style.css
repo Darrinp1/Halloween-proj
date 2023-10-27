@@ -22,7 +22,7 @@ body {
 }
 
 #spooky {
-    margin: 10% auto;
+    margin: 75% auto;
     width: 80%;
     height: 80%;
     animation: floaty 2s infinite;
@@ -115,7 +115,7 @@ body {
 }
 
 #shadow {
-    margin: -90px auto 0;
+    margin: -110px auto 0;
     background: black;
     width: 180px;
     height: 40px;
@@ -285,7 +285,7 @@ body {
   }
 
  .shadow {
-    margin: 10% auto 0;
+    margin: 110% auto 0;
     background: #000;
     width: 230px;
     height: 50px;
@@ -457,8 +457,18 @@ html:hover .spider {
 }
 
 body {
-    background-image: url("img/Halloween_Night_Background.jpg");
+    background-image: url("img/photo-booth-background-design-options-halloween-017-1500x1000.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
   }
+
+h1{
+    position: absolute;
+    top: 55%;
+    left: 56%;
+    bottom: -30%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 100px;
+}
