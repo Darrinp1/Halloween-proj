@@ -284,15 +284,6 @@ body {
     border-left: 1em solid #401d03;
   }
 
- .shadow {
-    margin: 110% auto 0;
-    background: #000;
-    width: 230px;
-    height: 50px;
-    border-radius: 50%;
-    animation: zoom 3s infinite;
-  }
-
   @keyframes float {
     0%, 100% {
         transform: translateY(0);
